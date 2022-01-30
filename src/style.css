@@ -1,0 +1,18 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.success {
+  font-size: 1rem;
+  color: green;
+}
+
+.error {
+  font-size: 1rem;
+  color: red;
+}
