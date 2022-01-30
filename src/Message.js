@@ -4,7 +4,9 @@ import './style.css';
 export default function Message({ isError }) {
   return (
     <div>
-      <p className={`bold-text ${isError ? 'error' : 'success'}`}>This is a message</p>
+      <p className={`bold-text ${isError ? 'error' : 'success'}`}>
+        This is a message using conditional rendering.
+      </p>
     </div>
   );
 }

@@ -15,7 +15,7 @@ export default function Message2({ isError }) {
           error: isError,
         })}
       >
-        This is a message2
+        This is a message2 class conditioning using CLSX
       </p>
     </div>
   );
